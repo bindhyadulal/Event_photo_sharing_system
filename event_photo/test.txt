@@ -1,0 +1,109 @@
+/* body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', Arial, sans-serif;
+            background: linear-gradient(135deg, #f8eaf7, white);
+            color: #6e3b6e;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        .center-text{
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .main-content {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .header-title {
+            font-size: 28px;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        .header-subtitle {
+            font-size: 16px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        /* Carousel styles */
+        .carousel-container {
+            position: relative;
+            background: linear-gradient(135deg, rgba(110, 59, 110, 0.1), rgba(110, 59, 110, 0.2)); /* Gradient background */
+            border-radius: 10px; /* Rounded corners for the section */
+            padding: 20px; /* Padding around the carousel */
+            max-width: 80%; /* Restrict width for better appearance */
+            margin: auto; /* Center align */
+        }
+
+        .carousel-inner img {
+            object-fit: cover;
+            width: 100%;
+            height: 560px;
+            border-radius: 8px; /* Rounded corners for images */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .carousel-control-prev,
+        .carousel-control-next {
+            width: 5%;
+        }
+
+        @media (max-width: 768px) {
+            .carousel-inner img {
+                height: 200px;
+            }
+
+            .carousel-container {
+                padding: 10px;
+                max-width: 100%;
+            }
+        }
+
+        .btn-custom {
+            display: block;
+            margin: 20px auto;
+            padding: 12px 30px;
+            background-color: #6e3b6e;
+            color: #fff;
+            font-size: 16px;
+            font-weight: bold;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            text-align: center;
+        }
+
+        .btn-custom:hover {
+            background-color: #8b458b;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        @media (max-width: 768px) {
+            .carousel-item img {
+                max-height: 300px;
+                object-fit: cover;
+            }
+        }
+        .step-icon {
+        font-size: 40px;
+        color: #8b458b;
+        margin-right: 15px;
+        flex-shrink: 0; /* Prevent the icon from shrinking on smaller screens */
+        }
+
+        @media (max-width: 768px) {
+            .step {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .step-icon {
+                margin: 0 0 10px 0; /* Adjust margins for vertical layout */
+            }
+        } 
